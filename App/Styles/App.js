@@ -9,12 +9,16 @@ const styles = StyleSheet.create({
   defaultSpiral: {
     position: "absolute",
     width: "100%",
-    height: "62.7%",
+    height: "100%",
     borderColor: "black",
-    top: "18.6%",
     transform: [
       {
         scaleY: 1.6
+      }
+    ],
+    transform: [
+      {
+        scaleX: 1
       }
     ]
   },
